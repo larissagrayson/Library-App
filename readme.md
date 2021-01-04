@@ -12,6 +12,8 @@ The form to add new books to the library is built using a modal.  It is a simple
 
 All books are implemented as objects and the HTML for them is built dynamically using JavaScript.  Therefore, in order to support toggling of the read/not read button and to allow books to be deleted, event bubbling is leveraged with an event listener attached to the closest HTML element that the books would be associated with (the bookshelf). 
 
+A live demo of this app can be viewed [here](https://larissagrayson.github.io/Library-App/).
+
 **SKILLS DEMONSTRATED:**
 * Closures
 * Objects
@@ -23,6 +25,3 @@ All books are implemented as objects and the HTML for them is built dynamically 
 * Document Object Model (DOM)
 * Event Propogation & Bubbling
 * Local Storage
-
-
- The working version of this app can be found [here] (#)
